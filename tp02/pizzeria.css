@@ -10,16 +10,16 @@ h2{
 }
 li{
     display: inline-block;
+}
+li>a{
+    border: solid 2px;
     border-color: #660000;
     background-color: #C03000;
     padding: 10px;
-    border: solid 2px;
-}
-li>a{
     color: #EFECCA;
     text-decoration: none;
 }
-li:hover{
+li>a:hover, li>a:focus{
     background-color: #009900;
 }
 footer>p>a{
