@@ -25,73 +25,34 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.container>* {
+    flex: 1 100%;
+}
 
-@media screen and (min-width: 800px) {
-    header {
-        flex-basis: 100%;
-    }
-    aside {
-        flex-grow: 1;
-    }
+@media all and (min-width: 600px){
     .left-aside {
-        order: 1;
-    }
-    main {
-        flex-basis: 33%;
-        order: 2;
+        flex-basis: auto;
     }
     .right-aside {
-        order: 3;
-    }
-    footer {
-        flex-basis: 100%;
-        order: 4;
+        flex-basis: auto;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 800px) {
-    header {
-        flex-basis: 100%;
-    }
-    aside {
-        flex-grow: 1;
-    }
-    main {
-        flex-basis: 100%;
+@media all and (min-width: 800px) {
+    .left-aside {
+        flex-basis: auto;
         order: 1;
     }
-    .left-aside {
+    main {
+        flex-basis: auto;
         order: 2;
+        max-width: 33%;
     }
     .right-aside {
+        flex-basis: auto;
         order: 3;
     }
     footer {
-        flex-basis: 100%;
-        order: 4;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    header {
-        flex-basis: 100%;
-    }
-    aside {
-        flex-grow: 1;
-    }
-    main {
-        flex-basis: 100%;
-        order: 1;
-    }
-    .left-aside {
-        flex-basis: 100%;
-        order: 2;
-    }
-    .right-aside {
-        order: 3;
-    }
-    footer {
-        flex-basis: 100%;
         order: 4;
     }
 }
