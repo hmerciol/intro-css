@@ -2,11 +2,19 @@ body {
 	background-color: #000099;
 	font-family: Helvetica, Arial;
 }
+h1 {
+	text-align: center;
+	color: #ffffff;
+}
 li {
 	background-color: #ffffff;
 	text-align: center;
 	padding: 10px;
 	border-radius: 5px;
+	margin: 10px;
+}
+form {
+	text-align: center;
 }
 [type=text] {
 	border-radius: 3px;
