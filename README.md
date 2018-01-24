@@ -1,2 +1,5 @@
 # intro-css
-TP d'introduction à CSS
+TPs d'introduction à CSS
+
+## TP01
+Affichage d'une page TODO list
